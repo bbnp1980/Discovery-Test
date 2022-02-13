@@ -1,0 +1,12 @@
+#!/usr/bin/test5 groovy
+timestamps{
+node()
+{
+	stage('TEST123456789')
+	{
+		println("test31")
+		println(env.BRANCH_NAME)
+		print("Hi Tim ?")
+	}
+}
+}
